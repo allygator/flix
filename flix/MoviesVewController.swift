@@ -11,7 +11,6 @@ import AlamofireImage
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     
-    
     @IBOutlet weak var tableView: UITableView!
     var movies = [[String:Any]]()
     override func viewDidLoad() {
@@ -31,10 +30,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
                     let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
                     self.movies = dataDictionary["results"] as! [[String:Any]]
                 self.tableView.reloadData()
-//                print(self.movies.count)
-                    // TODO: Get the array of movies
-                    // TODO: Store the movies in a property to use elsewhere
-                    // TODO: Reload your table view data
 
              }
         }
@@ -42,7 +37,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        print(self.movies.count)
         return movies.count;
     }
     
