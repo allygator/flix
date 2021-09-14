@@ -17,8 +17,12 @@ Time spent: **6** hours spent in total
 
 #### BONUS
 - [x] (2pt) User can view the app on various device sizes and orientations.
-- [x] (1pt) Run your app on a real device. (shown [here](https://github.com/allygator/flix/blob/main/PXL_20210906_220828340.jpg))
+- [x] (1pt) Run your app on a real device.
+
+![here](https://github.com/allygator/flix/blob/main/PXL_20210906_220828340.jpg))
 
 ### App Walkthrough GIF
 
-The gif is too big for github, so it is linked [here](https://i.imgur.com/qk0yfV9.mp4).
+(UPDATED)
+
+![here](https://github.com/allygator/flix/blob/main/demo.gif).
