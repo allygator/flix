@@ -21,4 +21,4 @@ Time spent: **6** hours spent in total
 
 ### App Walkthrough GIF
 
-The gif is too big for github, so it is linked [here](https://i.imgur.com/6vYGKGN.gif).
+The gif is too big for github, so it is linked [here](https://i.imgur.com/qk0yfV9.mp4).
